@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,600,700|Raleway:400,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* common heading */
+.common_heading h3 {
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* menubar start */
+header {
+    background-color: #1f2235;
+    padding: 35px 0;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Lobster', sans-serif;
+    transition: all linear 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #ff4a57;
+    transition: all linear 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 0 15px 0 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #ff4a57;
+    transition: all linear 0.3s;
+}
+
+.navbar-expand-lg {
+    padding: 0;
+}
+
+button:focus {
+    outline: none;
+}
+/* menubar end */
+
+/* banner start */
+#banner {
+    background: url(../images/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bnr_overlay {
+    padding: 200px 0;
+    background: rgba(14, 17, 22, 0.7);
+}
+
+.main_content h1 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.main_content h2 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.main_content p {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color: #d3d3d4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.main_content a {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fdfdfd;
+    font-size: 18px;
+    border: 2px solid #ff4a57;
+    border-radius: 50px;
+    transition: all linear 0.3s;
+}
+
+.main_content a:hover {
+    background-color: #ff4a57;
+    transition: all linear 0.3s;
+}
+/* banner end */
+
+/* about start */
+#about {
+    padding: 100px 0;
+    background-color: #23263a;
+}
+
+.about_me {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.about_me h3 {
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about_me p {
+    margin-top: 2px;
+    color: #dfdfdf;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* about right start */
+.about_right h4 {
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about_right p {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: #d9d9d9;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about_right h6 {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about_right ul li {
+    color: #d9d9d9;
+    font-size: 16px;
+    padding: 0 10px;
+    margin: 8px 0;
+    overflow: hidden;
+}
+
+.about_right ul li a {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #ff4a57;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    line-height: 35px;
+    padding: 0;
+    border-radius: 50%;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    transition: all linear 0.3s;
+}
+
+.about_right ul li a:hover {
+    background-color: #ff4a57;
+    transition: all linear 0.3s;
+}
+
+.common_button {
+    margin-top: 30px;
+}
+
+.about_right a {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fdfdfd;
+    font-size: 18px;
+    border: 2px solid #ff4a57;
+    border-radius: 50px;
+    transition: all linear 0.3s;
+}
+
+.about_right a:hover {
+    background-color: #ff4a57;
+    transition: all linear 0.3s;
+}
+/* about right end */
+
+/* about end */
+
+/* services start */
+#services {
+    padding: 120px 0;
+    background: #1f2235;
+}
+
+.icon_box i {
+    color: #ff4a57;
+    font-size: 40px;
+    transition-duration: 2s;
+}
+
+.icon_box h4 {
+    padding: 35px 0 25px 0;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.icon_box p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #d9d9d9;
+}
+
+.icon_box {
+    margin-bottom: 30px;
+    padding: 50px;
+    background: #23263a;
+    transition: all linear 0.3s;
+}
+
+.icon_box:hover {
+    background-color: #ff4a57;
+    transition: all linear 0.3s;
+}
+
+.icon_box:hover i {
+    color: #fff;
+    transform: rotateY(360deg);
+    transition-duration: 2s;
+}
+/* services end */
+
+/* work start */
+#my_work {
+    padding: 100px 0;
+    background-color: #23263a;
+}
+
+.work_content {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    color: rgba(255, 74, 86, 0.6);
+}
+
+.text:before {
+    content: 'coming~soon!';
+    color: #ff4a57;
+    text-transform: uppercase;
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.text:hover:before {
+    width: 100%;
+}
+/* work end */
+
+/* contact start */
+#contact {
+    background: #1f2235;
+    padding: 100px;
+}
+
+#contact form h2 {
+    color: #fff;
+    margin-bottom: 45px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+#contact form .input-group {
+    position: relative;
+}
+
+#contact form .input-group label {
+    position: absolute;
+    left: 20px;
+    top: -12px;
+    color: #fff;
+    padding: 0 8px;
+    background-color: #1f2235;
+}
+
+#contact form .input-group label span {
+    color: #ff4a57;
+}
+
+#contact form .input-group input,
+#contact form .input-group textarea {
+    border: 1px solid #ff4a57;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    margin-bottom: 30px;
+    padding: 15px;
+    color: #fff;
+}
+
+#contact form button {
+    height: 50px;
+    width: 160px;
+    background-color: #1f2235;
+    border: 2px solid #ff4a57;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    transition: all linear 0.3s;
+}
+
+#contact form button:hover {
+    background-color: #ff4a57;
+    transition: all linear 0.3s;
+}
+
+#contact .mycard {
+    width: 100%;
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 2px solid #ff4a57;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#contact .mycard .mycard-img {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+#contact .mycard .mycard-img img{
+    padding: 12px;
+    border: 2px solid #ff4a57;
+    border-radius: 10px;
+}
+
+#contact .mycard .mycard-content {
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
+}
+
+#contact .mycard h4 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#contact .mycard p {
+    font-size: 18px;
+    color: #fff;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+#contact .mycard p:hover {
+    color: #ff4a57;
+}
+/* contact end */
+
+/* footer start */
+.footer {
+    background-color: #23263a;
+    text-align: center;
+    color: #d9d9d9;
+    padding: 50px 0px;
+}
+
+.footer span {
+    color: #ff4a57;
+}
+/* footer end */

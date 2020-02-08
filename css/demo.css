@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,600,700|Raleway:400,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* header start */
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+#header .navbar-expand-lg .navbar-nav .nav-link {
+    margin: 0;
+    padding: 30px 30px;
+    color: #cccdd3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+
+#header .navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #ff4a57;
+    font-weight: 700;
+    transition: all linear 0.3s;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Lobster', sans-serif;
+    transition: all linear 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #ff4a57;
+    transition: all linear 0.3s;
+}
+/* header end */
+
+/* banner start */
+#banner {
+    background: url(../images/banner2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bnr_overlay {
+    padding: 100px 0;
+}
+
+.my_image img {
+    height: 230px;
+}
+
+.icon ul li {
+    color: #d9d9d9;
+    font-size: 16px;
+    padding: 0 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.icon ul li a {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #ff4a57;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    line-height: 35px;
+    padding: 0;
+    border-radius: 50%;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    transition: all linear 0.3s;
+}
+
+.icon ul li a:hover {
+    background-color: #ff4a57;
+    transition: all linear 0.3s;
+}
+
+.main_content h2 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main_content p {
+    margin-bottom: 35px;
+    color: #d3d3d4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main_content a {
+    display: inline-block;
+    padding: 8px 30px;
+    color: #d3d3d4;
+    font-size: 18px;
+    border: 2px solid #ff4a57;
+    border-radius: 50px;
+    transition: all linear 0.3s;
+}
+
+.main_content a:hover {
+    background-color: #ff4a57;
+    transition: all linear 0.3s;
+}
+/* banner end */
+
+/* demo start */
+#demo {
+    padding: 100px 0;
+    background-color: #f3f3f3;
+}
+
+.mb-6 {
+    margin-bottom: 90px;
+}
+
+.box {
+    width: 100%;
+    height: 400px;
+    margin: 15px 0;
+    background: #000;
+    background-position: top;
+    box-shadow: 0 0 10px;
+}
+
+.box.box1 {
+    background: url(../images/yousuf_portfolio.png);
+    background-size: cover;
+}
+.box.box2 {
+    background: url(../images/veer.png);
+    background-size: cover;
+}
+.box.box3 {
+    background: url(../images/veer.png);
+    background-size: cover;
+}
+.box.box4 {
+    background: url(../images/yousuf_portfolio.png);
+    background-size: cover;
+}
+.box.box5 {
+    background: url(../images/activebox.png);
+    background-size: cover;
+}
+.box.box6 {
+    background: url(../images/veer.png);
+    background-size: cover;
+}
+
+.box:hover {
+    background-position: bottom;
+    transition: all linear 5s;
+}
+
+.demo_btn {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 40px;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px;
+    transition: transform 0.5s;
+}
+
+.demo_btn:hover {
+    transform: scale(1.05);
+}
+
+.demo_btn a {
+    display: block;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+/* demo end */
+
+/* footer start */
+.footer {
+    background-color: #23263a;
+    text-align: center;
+    color: #d9d9d9;
+    padding: 30px 0px;
+}
+
+.footer span {
+    color: #ff4a57;
+}
+/* footer end */

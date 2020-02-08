@@ -1,0 +1,81 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .text {
+        font-size: 120px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .icon_box {
+        padding: 35px;
+    }
+    .text {
+        font-size: 100px;
+    }
+    #contact .mycard .mycard-img img{
+        padding: 6px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 10px 15px;
+    }
+    .about_right h4 {
+        text-align: center;
+    }
+    .about_right ul {
+        justify-content: center;
+    }
+    .about_right p {
+        text-align: justify;
+    }
+    .about_right a {
+        background-color: #ff4a57;
+    }
+    .text {
+        font-size: 80px;
+    }
+    #contact form button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        background-color: #ff4a57;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 10px 15px;
+    }
+    .about_right h4 {
+        text-align: center;
+    }
+    .about_right ul {
+        justify-content: center;
+    }
+    .about_right p {
+        text-align: justify;
+    }
+    .about_right a {
+        background-color: #ff4a57;
+    }
+    .text {
+        font-size: 60px;
+    }
+    #contact .mycard .mycard-img img{
+        padding: 6px;
+    }
+    #contact form button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        background-color: #ff4a57;
+    }
+}
+
+
