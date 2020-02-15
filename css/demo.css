@@ -150,16 +150,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mb-6 {
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 .box {
     width: 100%;
     height: 400px;
-    margin: 15px 0;
+    margin: 20px 0;
     background: #000;
     background-position: top;
     box-shadow: 0 0 10px;
+    transition: all linear 2s;
 }
 
 .box.box1 {
@@ -189,26 +190,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .box:hover {
     background-position: bottom;
-    transition: all linear 5s;
-}
-
-.demo_btn {
-    width: 100%;
-    height: 50px;
-    line-height: 50px;
-    margin-top: 40px;
-    border: 1px solid #000;
-    box-shadow: 0 0 10px;
-    transition: transform 0.5s;
-}
-
-.demo_btn:hover {
-    transform: scale(1.05);
+    transition: all linear 2s;
 }
 
 .demo_btn a {
     display: block;
-    color: #000000;
+    color: #23263a;
     font-size: 20px;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
